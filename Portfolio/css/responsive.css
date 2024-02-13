@@ -1,0 +1,97 @@
+/* ----------for tablet--------- */
+@media only screen and (max-width: 768px) {
+    .nav-header{
+        height: 50px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-wrapper{
+        padding: 0 20px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .nav-logo{
+        font-size: 20px;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-information,.user-information{
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .photo-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .service-card{
+        margin: 0 20px;
+        width: 100%;
+    }
+    img{
+        width: 150px;
+        height: 250px;
+    }
+    .contact span{
+        font-size: 20px;
+    }
+    footer .footer-caption{
+        font-size: 10px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+/* -------------for galaxy fold-------------- */
+
+@media only screen and (max-width: 300px) {
+    .photo-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* ------------------for pc----------------- */
+
+@media only screen and (min-width: 769px) and (max-width: 1280px){
+    .nav-wrapper{
+        padding: 0 20px;
+    }
+    .photo-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .service-card{
+        margin: 0 20px;
+        width: 100%;
+    }
+    .personal-information,.user-information{
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
